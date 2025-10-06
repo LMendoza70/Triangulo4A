@@ -12,14 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Triangulo4A">
         <activity
-            android:name=".Vistas.MainActivity"
+            android:name=".Vistas.MenuApp"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+        <activity
+            android:name=".Vistas.RectanguloView"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Vistas.MainActivity"
+            android:exported="true"></activity>
     </application>
 
 </manifest>
